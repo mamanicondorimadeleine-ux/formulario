@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  background-color: #120c38;
+  color: rgb(252, 252, 252);
+}
+
+.titulo {
+  background: linear-gradient(
+    to right, 
+    #ff4da6, 
+    #8a2be2, 
+    #00c3ff);
+  color: #120c38;
+}
+
+form {
+  background: #033a67;
+  width: 90%;
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #08455b; 
+}
+
+h2 {
+  color: #061418; 
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  background-color: #ffeb3b;
+  color: #d32f2f;
+  border: 2px solid #fbc02d;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #ff4da6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#mensaje,
+#nota_sumada {
+  color: #15ff00;
+  font-weight: bold;
+}
